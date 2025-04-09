@@ -1,0 +1,14 @@
+.paragraphs-section {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.paragraphs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
