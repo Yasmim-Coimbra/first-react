@@ -1,4 +1,4 @@
-import Button from "../button/button";
+import AlertButton from "../button/alertButton.jsx";
 import "./buttons.css";
 
 const Buttons = () => {
@@ -6,9 +6,9 @@ const Buttons = () => {
     <section className="buttons-section">
       <h2>Botões</h2>
       <div className="buttons-container">
-        <Button label={97} />
-        <Button />
-        <Button label="Tocar música" />
+        <AlertButton label={97} />
+        <AlertButton />
+        <AlertButton label="Tocar música" />
       </div>
     </section>
   );
